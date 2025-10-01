@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_enzo.mk
+    $(LOCAL_DIR)/aospa_enzo.mk
