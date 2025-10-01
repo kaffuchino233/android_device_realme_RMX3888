@@ -8,14 +8,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit from enzo device
-$(call inherit-product, device/realme/enzo/device.mk)
+# Inherit from RMX3888 device
+$(call inherit-product, device/realme/RMX3888/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 
-PRODUCT_NAME := aospa_enzo
-PRODUCT_DEVICE := enzo
+PRODUCT_NAME := aospa_RMX3888
+PRODUCT_DEVICE := RMX3888
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3888

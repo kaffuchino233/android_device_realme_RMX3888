@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aospa_enzo.mk
+    $(LOCAL_DIR)/aospa_RMX3888.mk

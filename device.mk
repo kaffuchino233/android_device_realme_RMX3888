@@ -44,4 +44,4 @@ PRODUCT_SOONG_NAMESPACES += \
 $(call inherit-product, device/oneplus/sm8650-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/realme/enzo/enzo-vendor.mk)
+$(call inherit-product, vendor/realme/RMX3888/RMX3888-vendor.mk)

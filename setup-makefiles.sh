@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=enzo
+export DEVICE=RMX3888
 export DEVICE_COMMON=sm8450-common
 export VENDOR=realme
 export VENDOR_COMMON=oneplus
